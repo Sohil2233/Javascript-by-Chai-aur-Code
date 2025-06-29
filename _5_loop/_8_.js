@@ -1,4 +1,7 @@
-const myNums = [1, 2, 3]
+
+// Reduce function
+
+const myNums = [1, 2, 3,4]
 
 // const myTotal = myNums.reduce(function (acc, currval) {
 //     console.log(`acc: ${acc} and currval: ${currval}`);
@@ -7,7 +10,7 @@ const myNums = [1, 2, 3]
 
 const myTotal = myNums.reduce( (acc, curr) => acc+curr, 0)
 
-console.log(myTotal);
+console.log('value in accumulator',myTotal);
 
 
 const shoppingCart = [
@@ -31,4 +34,4 @@ const shoppingCart = [
 
 const priceToPay = shoppingCart.reduce((acc, item) => acc + item.price, 0)
 
-console.log(priceToPay);
+// console.log(priceToPay);

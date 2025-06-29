@@ -1,6 +1,11 @@
 // for
 
 for (let i = 0; i <= 10; i++) {
+// 1.first initilize
+// 2.check condition
+// 3.loop body
+// 4.increment or decrement
+// repeat from step 2
     const element = i;
     if (element == 5) {
         //console.log("5 is best number");
@@ -28,7 +33,11 @@ for (let index = 0; index < myArray.length; index++) {
 }
 
 
+
+// ********************************
 // break and continue
+// *******************************
+
 
 // for (let index = 1; index <= 20; index++) {
 //     if (index == 5) {

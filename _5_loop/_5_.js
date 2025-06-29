@@ -1,3 +1,7 @@
+// forEach loop
+// widly used
+
+
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
 // coding.forEach( function (val){
@@ -35,5 +39,5 @@ const myCoding = [
 
 myCoding.forEach( (item) => {
     
-    console.log(item.languageName);
+    console.log(item.languageName,"   ",item.languageFileName);
 } )
